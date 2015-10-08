@@ -1,0 +1,133 @@
+/*
+Theme Name: Betheme | BIGTHEME.NET
+Theme URI: http://bigtheme.net/wordpress/themeforest/307-betheme
+Description: Betheme - Premium WordPress Theme
+Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-image-header, featured-images, post-formats, responsive-layout, theme-options, translation-ready
+Author: Muffin group
+Author URI: http://bigtheme.net/
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Version: 9.6
+
+All css files are placed in /css/ folder.
+If you want to add your own css code, please do it in /css/custom.css
+
+*/
+
+
+
+@font-face {
+  font-family: "web_Yekan";
+  src: url("fonts/web_yekan.woff") format("woff");
+}
+
+
+body{
+  font-family: "web_Yekan" !important;
+}
+
+p,a,li,h1,h2,h3,h4,h5,h6,h3>a,h4>a,h5>a,h6>a,h1>a ,h2>a{
+  font-family: "web_Yekan" !important;
+}  
+
+
+#Header > #Top_bar {
+    background-color:rgb(255, 46, 46) !important;
+}
+
+#Header > #Top_bar.is-sticky {
+    background-color: rgba(255, 46, 46,.98) !important;
+}
+
+.responsive-menu-toggle{
+    color:#EFEFEF;
+}
+
+#Top_bar #menu {
+    background-color:#F2F2F2 !important;
+}
+
+@media only screen and (max-width: 1240px){
+
+#Top_bar #menu li.hover > a{
+    color:#5f5f5f !important;
+}
+#Top_bar .menu > li.current-menu-item > a{
+    color:#5f5f5f !important;
+}
+
+}
+
+@media only screen and (max-width: 767px){
+
+#Top_bar #menu {
+    background-color:#ff2e2e !important;
+}
+
+#Top_bar #menu-main-menu {
+    background-color:#ff2e2e !important;
+}
+#Top_bar .sub-menu {
+    background-color:#ff2e2e !important;
+}
+
+}
+
+
+.post-meta.clearfix, .post-meta.clearfix a {
+    color: #35ff78 !important;
+}
+
+.next-prev-nav a.button {
+    background-color: #35ff78 !important;
+}
+
+.column_attr p>i {
+    color: #35ff78 !important;
+}
+
+.column_attr.align_center > div {
+    background: #2C2C2C none repeat scroll 0% 0% !important;
+}
+
+#Top_bar .search_wrapper {
+    background: unset !important;
+}
+
+
+.page-id-15 .section_wrapper .column_column:first-child h6,
+.page-id-15 .section_wrapper .column_column:first-child h5,
+.page-id-15 .section_wrapper .column_column:first-child h4,
+.page-id-15 .section_wrapper .column_column:first-child h3,
+.page-id-15 .section_wrapper .column_column:first-child h2,
+.page-id-15 .section_wrapper .column_column:first-child h1,
+.page-id-15 .section_wrapper .column_column:first-child p {
+	color:#35ff78 !important;
+}
+
+.page-id-11 .section_wrapper .column_column>div>div h6,
+.page-id-11 .section_wrapper .column_column>div>div h5,
+.page-id-11 .section_wrapper .column_column>div>div h4,
+.page-id-11 .section_wrapper .column_column>div>div h3,
+.page-id-11 .section_wrapper .column_column>div>div h2,
+.page-id-11 .section_wrapper .column_column>div>div h1,
+.page-id-11 .section_wrapper .column_column>div>div p
+{
+	color:#35ff78 !important;
+}
+
+
+.page-id-15 .column_icon_box .desc_wrapper h6,
+.page-id-15 .column_icon_box .desc_wrapper h5,
+.page-id-15 .column_icon_box .desc_wrapper h4,
+.page-id-15 .column_icon_box .desc_wrapper h3,
+.page-id-15 .column_icon_box .desc_wrapper h2,
+.page-id-15 .column_icon_box .desc_wrapper h1,
+.page-id-15 .column_icon_box .desc_wrapper p{
+	color:#35ff78 !important;
+}
+
+.page-id-11 .counter .desc_wrapper .number-wrapper
+{
+	color:#ADADAD !important;
+}
